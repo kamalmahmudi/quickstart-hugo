@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="mw8 center ph3 ph5-ns pv4">
+  <h1 class="f2 fw7 lh-title mb4">{{ .Title }}</h1>
+  <div class="flex flex-wrap nl3 nr3">
+    {{ range .Data.Pages }}
+    <div class="w-100 w-third-ns pa3">
+      <div class="ba b--light-gray br2 pa3 tc">
+        {{ $photo := .Params.photo }}
+        {{ if $photo }}
+          <img src="{{ $photo }}" alt="{{ .Title }}" class="br-100 h3 w3 dib mb2 bg-light-gray" />
+        {{ else }}
+          <img src="https://placehold.co/120x120?text=Author" alt="{{ .Title }}" class="br-100 h3 w3 dib mb2" />
+        {{ end }}
+        <h2 class="f4 fw6 mb1 mt2">
+          <a href="{{ .RelPermalink }}" class="link blue hover-dark-gray">{{ .Title }}</a>
+        </h2>
+        {{ with .Params.bio }}
+          <p class="f6 gray mt0 lh-copy">{{ . }}</p>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

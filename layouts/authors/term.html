@@ -1,0 +1,49 @@
+{{ define "main" }}
+<div class="mw8 center ph3 ph5-ns pv4">
+  <div class="cf mb5">
+    <!-- Photo -->
+    <div class="fl w-100 w-25-ns tc mb4 mb0-ns">
+      {{ $photo := .Params.photo }}
+      {{ if $photo }}
+        <img src="{{ $photo }}" alt="{{ .Title }}" class="br-100 bg-light-gray" style="width:120px;height:120px;object-fit:cover;" />
+      {{ else }}
+        <img src="https://placehold.co/120x120?text=Author" alt="{{ .Title }}" class="br-100" style="width:120px;height:120px;" />
+      {{ end }}
+    </div>
+    <!-- Name, bio, socials -->
+    <div class="fl w-100 w-75-ns pl4-ns">
+      <h1 class="f2 fw7 lh-title mt0 mb1">{{ .Title }}</h1>
+      {{ with .Params.bio }}
+        <p class="f5 gray mt0 mb3">{{ . }}</p>
+      {{ end }}
+      {{ with .Params.social }}
+        <div class="mb3">
+          {{ with .instagram }}<a href="https://instagram.com/{{ . }}" class="link blue hover-dark-gray mr3 f5">Instagram</a>{{ end }}
+          {{ with .github }}<a href="https://github.com/{{ . }}" class="link blue hover-dark-gray mr3 f5">GitHub</a>{{ end }}
+          {{ with .email }}<a href="mailto:{{ . }}" class="link blue hover-dark-gray mr3 f5">Email</a>{{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <!-- Description (markdown body) -->
+  {{ with .Content }}
+    <div class="f5 lh-copy mb5 measure-wide">{{ . }}</div>
+  {{ end }}
+
+  <!-- Posts by this author -->
+  {{ $termSlug := .Title | urlize }}
+  {{ $posts := where .Site.RegularPages "Params.author" "intersect" (slice $termSlug) }}
+  {{ if $posts }}
+    <h2 class="f3 fw6 mb3">Posts by {{ .Title }}</h2>
+    <ul class="list pl0">
+      {{ range $posts }}
+        <li class="mb3 bb b--light-gray pb3">
+          <a href="{{ .RelPermalink }}" class="link blue hover-dark-gray f4 fw5">{{ .Title }}</a>
+          <span class="f6 gray db mt1">{{ .Date.Format "2 January 2006" }}</span>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</div>
+{{ end }}
