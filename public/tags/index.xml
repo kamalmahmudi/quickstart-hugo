@@ -6,6 +6,49 @@
     <description>Recent content in Tags on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 14 Apr 2026 07:07:07 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>15-30menit</title>
+      <link>http://localhost:1313/tags/15-30menit/</link>
+      <pubDate>Tue, 14 Apr 2026 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/tags/15-30menit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>5000-10000idr</title>
+      <link>http://localhost:1313/tags/5000-10000idr/</link>
+      <pubDate>Tue, 14 Apr 2026 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/tags/5000-10000idr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>10000-20000idr</title>
+      <link>http://localhost:1313/tags/10000-20000idr/</link>
+      <pubDate>Wed, 01 Apr 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/10000-20000idr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>30-60menit</title>
+      <link>http://localhost:1313/tags/30-60menit/</link>
+      <pubDate>Wed, 01 Apr 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/30-60menit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>120-180menit</title>
+      <link>http://localhost:1313/tags/120-180menit/</link>
+      <pubDate>Thu, 15 Jan 2026 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/120-180menit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>30000-50000idr</title>
+      <link>http://localhost:1313/tags/30000-50000idr/</link>
+      <pubDate>Thu, 15 Jan 2026 09:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/tags/30000-50000idr/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

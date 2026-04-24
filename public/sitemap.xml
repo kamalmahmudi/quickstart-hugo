@@ -2,10 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/15-30menit/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/5000-10000idr/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/satu/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-14T07:07:07+01:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/10000-20000idr/</loc>
+    <lastmod>2026-04-01T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/30-60menit/</loc>
+    <lastmod>2026-04-01T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/gado-gado-jakarta/</loc>
+    <lastmod>2026-04-01T10:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/ayam-goreng-kremes/</loc>
+    <lastmod>2026-03-10T08:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/sup-jagung-wortel/</loc>
+    <lastmod>2026-02-20T07:30:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/120-180menit/</loc>
+    <lastmod>2026-01-15T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/30000-50000idr/</loc>
+    <lastmod>2026-01-15T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/resep/rendang-daging-sapi/</loc>
+    <lastmod>2026-01-15T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
   </url>
 </urlset>
